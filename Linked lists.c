@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
+
 //The linked list is defined as:
 typedef struct node
 {
@@ -11,8 +12,7 @@ typedef struct node
 //pointer to the first element of the list
 node* head = NULL;
 
-/*Linear search in linked list.*/
-
+/*Linear search in a linked list.*/
 bool listLinearSearch(node* list, int val){
 
 	//declare a pointer that points to the first node of the list
@@ -35,9 +35,7 @@ bool listLinearSearch(node* list, int val){
 }
 
 
-
 /*Prepend a new node containing int to the front of a singly linked list*/
-
 void prepend(int i)
 {
 	// build new node
@@ -55,7 +53,6 @@ void prepend(int i)
 }
 
 /* Append a new node to the end of the list*/
-
 void append(int i)
 {
 	// build new node
